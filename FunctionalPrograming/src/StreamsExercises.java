@@ -35,6 +35,5 @@ public class StreamsExercises {
         Stream<Person> resultStream4Dis = Stream.concat(p1d,Stream.concat(p2d, p3d));
         System.out.println(resultStream4.collect(Collectors.toList()));
         System.out.println(resultStream4Dis.collect(Collectors.toList()));
-
     }
 }

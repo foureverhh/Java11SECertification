@@ -28,7 +28,14 @@ public class FieldsAndVariables {
         float piFloat = 3.14f; //32 bit
         double piDouble = 3.14; //64 bit
 
+        float floatNoF = 3;
 
+        char aLetter = 'A';
+        char aUnicode = '\u0041';
+        char aNumber = 65;
+        if(aLetter==aUnicode && aUnicode==aNumber) {
+            System.out.println("aLetter -> " + aLetter + " , aUnicode -> " + aLetter + " , aNumber -> " + aNumber );
+        }
 
 
     }
