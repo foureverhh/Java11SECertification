@@ -7,5 +7,19 @@ public class ArithmeticOperators {
         // byteResult = xByte + yByte;
         int forcedPromotedIntResult = xByte + yByte;
 
+        short xShort = 5;
+        yByte = 3;
+        int intResult = xShort + yByte;
+
+
+        int yInt = 3;
+        long zLong = 10;
+
+        // intResult = xShort + yByte * zLong; //Compile error
+        long longResult = xShort + yInt + yByte * zLong;
+
+        double dDouble = 2;
+        // intResult = xShort + yByte * dDouble; //Compile error
+        double doubleResult = xShort + yByte * dDouble;
     }
 }

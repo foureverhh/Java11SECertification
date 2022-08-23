@@ -55,6 +55,5 @@ public class NarrowingWideningCasting {
         System.out.println("shortValue " + shortValue);
         System.out.println("charValue " + charValue);
         System.out.println("charValue " + (int)charValue);
-
     }
 }

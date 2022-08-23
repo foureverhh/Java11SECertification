@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da066cb8-f5ad-49eb-9631-d7aa8db9f8aa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DataTypesAndStringAPIs/src/ArithmeticOperators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataTypesAndStringAPIs/src/NarrowingWideningCasting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataTypesAndStringAPIs/src/NumberSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataTypesAndStringAPIs/src/Underscores.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataTypesAndStringAPIs/src/FieldsAndVariables.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataTypesAndStringAPIs/src/FieldsAndVariables.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FunctionalPrograming/src/StreamsExercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/FunctionalPrograming/src/StreamsExercises.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataTypesAndStringAPIs/src/ArithmeticOperators.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataTypesAndStringAPIs/src/ArithmeticOperators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataTypesAndStringAPIs/src/NarrowingWideningCasting.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataTypesAndStringAPIs/src/NarrowingWideningCasting.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,24 +33,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
-  }
-}</component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.08032131" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
   <component name="RunManager" selected="Application.NumberSystem">
     <configuration name="FieldsAndVariables" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FieldsAndVariables" />
@@ -106,6 +95,8 @@
       <workItem from="1660640803691" duration="4041000" />
       <workItem from="1660742268380" duration="8375000" />
       <workItem from="1660814577870" duration="599000" />
+      <workItem from="1660852661470" duration="124000" />
+      <workItem from="1660852790155" duration="946000" />
     </task>
     <servers />
   </component>
