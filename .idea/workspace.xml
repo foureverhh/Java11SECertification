@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da066cb8-f5ad-49eb-9631-d7aa8db9f8aa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/DataTypesAndStringAPIs/src/PrePostUnaryOperators.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataTypesAndStringAPIs/src/ArithmeticOperators.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataTypesAndStringAPIs/src/ArithmeticOperators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataTypesAndStringAPIs/src/NarrowingWideningCasting.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataTypesAndStringAPIs/src/NarrowingWideningCasting.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +43,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.NumberSystem">
+  <component name="RunManager" selected="Application.PrePostUnaryOperators">
     <configuration name="FieldsAndVariables" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FieldsAndVariables" />
       <module name="DataTypesAndStringAPIs" />
@@ -66,6 +65,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PrePostUnaryOperators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrePostUnaryOperators" />
+      <module name="DataTypesAndStringAPIs" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StreamsExercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="StreamsExercises" />
       <module name="FunctionalPrograming" />
@@ -75,6 +81,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrePostUnaryOperators" />
         <item itemvalue="Application.NumberSystem" />
         <item itemvalue="Application.NarrowingWideningCasting" />
         <item itemvalue="Application.FieldsAndVariables" />
@@ -96,7 +103,7 @@
       <workItem from="1660742268380" duration="8375000" />
       <workItem from="1660814577870" duration="599000" />
       <workItem from="1660852661470" duration="124000" />
-      <workItem from="1660852790155" duration="946000" />
+      <workItem from="1660852790155" duration="2876000" />
     </task>
     <servers />
   </component>
