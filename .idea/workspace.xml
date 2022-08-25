@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da066cb8-f5ad-49eb-9631-d7aa8db9f8aa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DataTypesAndStringAPIs/src/PrePostUnaryOperators.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataTypesAndStringAPIs/src/AssignmentOperators.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +43,14 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.PrePostUnaryOperators">
+  <component name="RunManager" selected="Application.AssignmentOperators">
+    <configuration name="AssignmentOperators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AssignmentOperators" />
+      <module name="DataTypesAndStringAPIs" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FieldsAndVariables" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FieldsAndVariables" />
       <module name="DataTypesAndStringAPIs" />
@@ -72,20 +79,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamsExercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StreamsExercises" />
-      <module name="FunctionalPrograming" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AssignmentOperators" />
         <item itemvalue="Application.PrePostUnaryOperators" />
         <item itemvalue="Application.NumberSystem" />
         <item itemvalue="Application.NarrowingWideningCasting" />
         <item itemvalue="Application.FieldsAndVariables" />
-        <item itemvalue="Application.StreamsExercises" />
       </list>
     </recent_temporary>
   </component>
@@ -103,7 +103,7 @@
       <workItem from="1660742268380" duration="8375000" />
       <workItem from="1660814577870" duration="599000" />
       <workItem from="1660852661470" duration="124000" />
-      <workItem from="1660852790155" duration="2876000" />
+      <workItem from="1660852790155" duration="3924000" />
     </task>
     <servers />
   </component>
