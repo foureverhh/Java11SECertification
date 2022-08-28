@@ -5,8 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da066cb8-f5ad-49eb-9631-d7aa8db9f8aa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DataTypesAndStringAPIs/src/AssignmentOperators.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataTypesAndStringAPIs/src/ComparisonOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataTypesAndStringAPIs/src/LogicalOperators.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FunctionalPrograming/src/exercises/LambdaExample01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FunctionalPrograming/src/exercises/LambdaExample02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FunctionalPrograming/src/exercises/LambdaExample03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FunctionalPrograming/src/exercises/LambdaExample04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FunctionalPrograming/src/exercises/LambdaExample05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FunctionalPrograming/src/exercises/LambdaExample06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FunctionalPrograming/src/exercises/LambdaExample07.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FunctionalPrograming/src/exercises/MockDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FunctionalPrograming/src/model/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FunctionalPrograming/src/model/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FunctionalPrograming/src/StreamsExercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/FunctionalPrograming/src/exercises/StreamsExercises.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +46,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="11" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
@@ -43,49 +56,84 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.AssignmentOperators">
-    <configuration name="AssignmentOperators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AssignmentOperators" />
-      <module name="DataTypesAndStringAPIs" />
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="exercises" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.LambdaExample07">
+    <configuration name="LambdaExample01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercises.LambdaExample01" />
+      <module name="FunctionalPrograming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FieldsAndVariables" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FieldsAndVariables" />
-      <module name="DataTypesAndStringAPIs" />
+    <configuration name="LambdaExample02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercises.LambdaExample02" />
+      <module name="FunctionalPrograming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NarrowingWideningCasting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NarrowingWideningCasting" />
-      <module name="DataTypesAndStringAPIs" />
+    <configuration name="LambdaExample04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercises.LambdaExample04" />
+      <module name="FunctionalPrograming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NumberSystem" />
-      <module name="DataTypesAndStringAPIs" />
+    <configuration name="LambdaExample05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercises.LambdaExample05" />
+      <module name="FunctionalPrograming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrePostUnaryOperators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PrePostUnaryOperators" />
-      <module name="DataTypesAndStringAPIs" />
+    <configuration name="LambdaExample07" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercises.LambdaExample07" />
+      <module name="FunctionalPrograming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AssignmentOperators" />
-        <item itemvalue="Application.PrePostUnaryOperators" />
-        <item itemvalue="Application.NumberSystem" />
-        <item itemvalue="Application.NarrowingWideningCasting" />
-        <item itemvalue="Application.FieldsAndVariables" />
+        <item itemvalue="Application.LambdaExample07" />
+        <item itemvalue="Application.LambdaExample05" />
+        <item itemvalue="Application.LambdaExample04" />
+        <item itemvalue="Application.LambdaExample02" />
+        <item itemvalue="Application.LambdaExample01" />
       </list>
     </recent_temporary>
   </component>
@@ -103,7 +151,8 @@
       <workItem from="1660742268380" duration="8375000" />
       <workItem from="1660814577870" duration="599000" />
       <workItem from="1660852661470" duration="124000" />
-      <workItem from="1660852790155" duration="3924000" />
+      <workItem from="1660852790155" duration="7829000" />
+      <workItem from="1661685296513" duration="8577000" />
     </task>
     <servers />
   </component>

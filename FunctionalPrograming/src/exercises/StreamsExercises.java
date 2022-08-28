@@ -1,3 +1,5 @@
+package exercises;
+
 import model.Person;
 
 import java.util.stream.Collectors;
