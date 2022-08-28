@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da066cb8-f5ad-49eb-9631-d7aa8db9f8aa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/FunctionalPrograming/src/exercises/functionalExamples/FunctionalInterfaceExample01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FunctionalPrograming/src/exercises/functionalExamples/FunctionalInterfaceExample02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FunctionalPrograming/src/exercises/functionalExamples/FunctionalInterfaceExample03.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FunctionalPrograming/src/exercises/LambdaExample01.java" beforeDir="false" afterPath="$PROJECT_DIR$/FunctionalPrograming/src/exercises/lambdaExamples/LambdaExample01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FunctionalPrograming/src/exercises/LambdaExample02.java" beforeDir="false" afterPath="$PROJECT_DIR$/FunctionalPrograming/src/exercises/lambdaExamples/LambdaExample02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FunctionalPrograming/src/exercises/LambdaExample03.java" beforeDir="false" afterPath="$PROJECT_DIR$/FunctionalPrograming/src/exercises/lambdaExamples/LambdaExample03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FunctionalPrograming/src/exercises/LambdaExample04.java" beforeDir="false" afterPath="$PROJECT_DIR$/FunctionalPrograming/src/exercises/lambdaExamples/LambdaExample04.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FunctionalPrograming/src/exercises/LambdaExample05.java" beforeDir="false" afterPath="$PROJECT_DIR$/FunctionalPrograming/src/exercises/lambdaExamples/LambdaExample05.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FunctionalPrograming/src/exercises/LambdaExample06.java" beforeDir="false" afterPath="$PROJECT_DIR$/FunctionalPrograming/src/exercises/lambdaExamples/LambdaExample06.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FunctionalPrograming/src/exercises/LambdaExample07.java" beforeDir="false" afterPath="$PROJECT_DIR$/FunctionalPrograming/src/exercises/lambdaExamples/LambdaExample07.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +50,7 @@
       <recent name="exercises" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FunctionalInterfaceExample02">
+  <component name="RunManager" selected="Application.FunctionalInterfaceExample03">
     <configuration name="FunctionalInterfaceExample01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exercises.functionalExamples.FunctionalInterfaceExample01" />
       <module name="FunctionalPrograming" />
@@ -85,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaExample04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercises.lambdaExamples.LambdaExample04" />
+    <configuration name="FunctionalInterfaceExample03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercises.functionalExamples.FunctionalInterfaceExample03" />
       <module name="FunctionalPrograming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exercises.lambdaExamples.*" />
+          <option name="PATTERN" value="exercises.functionalExamples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FunctionalInterfaceExample03" />
         <item itemvalue="Application.FunctionalInterfaceExample02" />
         <item itemvalue="Application.FunctionalInterfaceExample01" />
         <item itemvalue="Application.LambdaExample07" />
         <item itemvalue="Application.LambdaExample05" />
-        <item itemvalue="Application.LambdaExample04" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +141,7 @@
       <workItem from="1660814577870" duration="599000" />
       <workItem from="1660852661470" duration="124000" />
       <workItem from="1660852790155" duration="7829000" />
-      <workItem from="1661685296513" duration="12792000" />
+      <workItem from="1661685296513" duration="15010000" />
     </task>
     <servers />
   </component>
