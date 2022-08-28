@@ -1,9 +1,9 @@
-package exercises;
+package exercises.lambdaExamples;
 
+import exercises.MockDataSource;
 import model.Category;
 import model.Product;
 
-import java.io.FileWriter;
 import java.io.IOException;
 import java.math.BigDecimal;
 import java.util.List;

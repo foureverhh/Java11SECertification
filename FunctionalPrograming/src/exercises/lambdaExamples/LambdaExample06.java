@@ -1,5 +1,6 @@
-package exercises;
+package exercises.lambdaExamples;
 
+import exercises.MockDataSource;
 import model.Product;
 
 import java.io.FileWriter;
