@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DataTypesAndStringAPIs/DataTypesAndStringAPIs.iml" filepath="$PROJECT_DIR$/DataTypesAndStringAPIs/DataTypesAndStringAPIs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExceptionHandling/ExceptionHandling.iml" filepath="$PROJECT_DIR$/ExceptionHandling/ExceptionHandling.iml" />
       <module fileurl="file://$PROJECT_DIR$/FunctionalPrograming/FunctionalPrograming.iml" filepath="$PROJECT_DIR$/FunctionalPrograming/FunctionalPrograming.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java11SECertification.iml" filepath="$PROJECT_DIR$/Java11SECertification.iml" />
     </modules>
