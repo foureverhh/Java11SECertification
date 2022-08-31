@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da066cb8-f5ad-49eb-9631-d7aa8db9f8aa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ExceptionHandling/ExceptionHandling.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExceptionHandling/src/TryCatchFlowOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExceptionHandling/src/TryCatchSyntax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic_try_catch_demo.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExceptionHandling/src/MyResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExceptionHandling/src/MyResourceWithException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExceptionHandling/src/TryWithResourcesExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExceptionHandling/src/TryWithResourcesReverseClose.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExceptionHandling/src/TryWithResourcesReverseCloseWithThrowException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/in.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,37 +56,12 @@
       <recent name="$PROJECT_DIR$/ExceptionHandling/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
       <recent name="exercises.functionalExamples" />
       <recent name="exercises" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TryCatchFlowOne">
-    <configuration name="FunctionalInterfaceExample01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercises.functionalExamples.FunctionalInterfaceExample01" />
-      <module name="FunctionalPrograming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exercises.functionalExamples.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FunctionalInterfaceExample02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercises.functionalExamples.FunctionalInterfaceExample02" />
-      <module name="FunctionalPrograming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exercises.functionalExamples.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TryWithResourcesReverseClose">
     <configuration name="FunctionalInterfaceExample03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exercises.functionalExamples.FunctionalInterfaceExample03" />
       <module name="FunctionalPrograming" />
@@ -113,13 +89,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TryWithResourcesExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TryWithResourcesExample" />
+      <module name="ExceptionHandling" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TryWithResourcesReverseClose" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TryWithResourcesReverseClose" />
+      <module name="ExceptionHandling" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TryWithResourcesReverseClose" />
+        <item itemvalue="Application.TryWithResourcesExample" />
         <item itemvalue="Application.TryCatchFlowOne" />
         <item itemvalue="Application.TryCatchSyntax" />
         <item itemvalue="Application.FunctionalInterfaceExample03" />
-        <item itemvalue="Application.FunctionalInterfaceExample02" />
-        <item itemvalue="Application.FunctionalInterfaceExample01" />
       </list>
     </recent_temporary>
   </component>
@@ -138,7 +128,7 @@
       <workItem from="1660814577870" duration="599000" />
       <workItem from="1660852661470" duration="124000" />
       <workItem from="1660852790155" duration="7829000" />
-      <workItem from="1661685296513" duration="19205000" />
+      <workItem from="1661685296513" duration="21828000" />
     </task>
     <servers />
   </component>
