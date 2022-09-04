@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da066cb8-f5ad-49eb-9631-d7aa8db9f8aa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ExceptionHandling/src/error_example/InitErrorExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExceptionHandling/src/error_example/NoClassDefFoundErrorExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExceptionHandling/src/error_example/StackOverFlowErrorExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExceptionHandling/src/throw_example/ThrowingExceptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExceptionHandling/src/throw_example/model/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExceptionHandling/src/CheckedVsUnchecked.java" beforeDir="false" afterPath="$PROJECT_DIR$/ExceptionHandling/src/exception_example/CheckedVsUnchecked.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +57,7 @@
       <recent name="exercises" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NoClassDefFoundErrorExample">
+  <component name="RunManager" selected="Application.ThrowingExceptions">
     <configuration name="NoClassDefFoundErrorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="error_example.NoClassDefFoundErrorExample" />
       <module name="ExceptionHandling" />
@@ -73,15 +71,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TryCatchFlowOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TryCatchFlowOne" />
+    <configuration name="ThrowingExceptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="throw_example.ThrowingExceptions" />
       <module name="ExceptionHandling" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="throw_example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TryCatchSyntax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TryCatchSyntax" />
+    <configuration name="TryCatchFlowOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TryCatchFlowOne" />
       <module name="ExceptionHandling" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -103,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThrowingExceptions" />
         <item itemvalue="Application.NoClassDefFoundErrorExample" />
         <item itemvalue="Application.TryWithResourcesReverseClose" />
         <item itemvalue="Application.TryWithResourcesExample" />
         <item itemvalue="Application.TryCatchFlowOne" />
-        <item itemvalue="Application.TryCatchSyntax" />
       </list>
     </recent_temporary>
   </component>
@@ -128,7 +132,7 @@
       <workItem from="1660852790155" duration="7829000" />
       <workItem from="1661685296513" duration="22297000" />
       <workItem from="1661978515316" duration="708000" />
-      <workItem from="1662304768268" duration="2032000" />
+      <workItem from="1662304768268" duration="3385000" />
     </task>
     <servers />
   </component>
