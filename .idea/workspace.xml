@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da066cb8-f5ad-49eb-9631-d7aa8db9f8aa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ExceptionHandling/src/MyResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExceptionHandling/src/MyResourceWithException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExceptionHandling/src/TryWithResourcesExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExceptionHandling/src/TryWithResourcesReverseClose.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExceptionHandling/src/TryWithResourcesReverseCloseWithThrowException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/in.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExceptionHandling/src/CheckedVsUnchecked.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -128,7 +123,9 @@
       <workItem from="1660814577870" duration="599000" />
       <workItem from="1660852661470" duration="124000" />
       <workItem from="1660852790155" duration="7829000" />
-      <workItem from="1661685296513" duration="21828000" />
+      <workItem from="1661685296513" duration="22297000" />
+      <workItem from="1661978515316" duration="708000" />
+      <workItem from="1662304768268" duration="1306000" />
     </task>
     <servers />
   </component>
