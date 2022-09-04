@@ -1,3 +1,5 @@
+package exception_example;
+
 import java.io.IOException;
 
 public class CheckedVsUnchecked {

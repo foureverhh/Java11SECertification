@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da066cb8-f5ad-49eb-9631-d7aa8db9f8aa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ExceptionHandling/src/CheckedVsUnchecked.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExceptionHandling/src/error_example/InitErrorExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExceptionHandling/src/error_example/NoClassDefFoundErrorExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExceptionHandling/src/error_example/StackOverFlowErrorExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExceptionHandling/src/CheckedVsUnchecked.java" beforeDir="false" afterPath="$PROJECT_DIR$/ExceptionHandling/src/exception_example/CheckedVsUnchecked.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,13 +59,13 @@
       <recent name="exercises" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TryWithResourcesReverseClose">
-    <configuration name="FunctionalInterfaceExample03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercises.functionalExamples.FunctionalInterfaceExample03" />
-      <module name="FunctionalPrograming" />
+  <component name="RunManager" selected="Application.NoClassDefFoundErrorExample">
+    <configuration name="NoClassDefFoundErrorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="error_example.NoClassDefFoundErrorExample" />
+      <module name="ExceptionHandling" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exercises.functionalExamples.*" />
+          <option name="PATTERN" value="error_example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,11 +103,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NoClassDefFoundErrorExample" />
         <item itemvalue="Application.TryWithResourcesReverseClose" />
         <item itemvalue="Application.TryWithResourcesExample" />
         <item itemvalue="Application.TryCatchFlowOne" />
         <item itemvalue="Application.TryCatchSyntax" />
-        <item itemvalue="Application.FunctionalInterfaceExample03" />
       </list>
     </recent_temporary>
   </component>
@@ -125,7 +128,7 @@
       <workItem from="1660852790155" duration="7829000" />
       <workItem from="1661685296513" duration="22297000" />
       <workItem from="1661978515316" duration="708000" />
-      <workItem from="1662304768268" duration="1306000" />
+      <workItem from="1662304768268" duration="2032000" />
     </task>
     <servers />
   </component>
