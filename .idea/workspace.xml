@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da066cb8-f5ad-49eb-9631-d7aa8db9f8aa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DataTypesAndStringAPIs/src/EnumDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataTypesAndStringAPIs/src/PayEnum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java11SECertification.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +36,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
@@ -44,7 +44,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.08032131" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="Runtime.Targets.Configurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -57,13 +57,19 @@
       <recent name="exercises" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PayEnum">
-    <configuration name="NoClassDefFoundErrorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="error_example.NoClassDefFoundErrorExample" />
-      <module name="ExceptionHandling" />
+  <component name="RunManager" selected="Application.AdvancedStreamsExample01">
+    <configuration name="AdvancedStreamsExample01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/Library/Java/JavaVirtualMachines/azul-11.0.16.1/Contents/Home" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="exercises.stream_advance_example.AdvancedStreamsExample01" />
+      <module name="FunctionalPrograming" />
+      <selectedOptions>
+        <option name="environmentVariables" visible="false" />
+      </selectedOptions>
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FunctionalPrograming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="error_example.*" />
+          <option name="PATTERN" value="exercises.stream_advance_example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,7 +79,7 @@
     </configuration>
     <configuration name="OverridingExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exception_overriding.OverridingExample" />
-      <module name="ExceptionHandling" />
+      <module name="FunctionalPrograming" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="exception_overriding.*" />
@@ -110,20 +116,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TryWithResourcesReverseClose" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TryWithResourcesReverseClose" />
+    <configuration name="TryCatchFlowOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TryCatchFlowOne" />
       <module name="ExceptionHandling" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.AdvancedStreamsExample01" />
+      <item itemvalue="Application.OverridingExample" />
+      <item itemvalue="Application.PayEnum" />
+      <item itemvalue="Application.ThrowingExceptions" />
+      <item itemvalue="Application.TryCatchFlowOne" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AdvancedStreamsExample01" />
+        <item itemvalue="Application.TryCatchFlowOne" />
         <item itemvalue="Application.PayEnum" />
         <item itemvalue="Application.OverridingExample" />
         <item itemvalue="Application.ThrowingExceptions" />
-        <item itemvalue="Application.NoClassDefFoundErrorExample" />
-        <item itemvalue="Application.TryWithResourcesReverseClose" />
       </list>
     </recent_temporary>
   </component>
@@ -145,6 +158,9 @@
       <workItem from="1661685296513" duration="22297000" />
       <workItem from="1661978515316" duration="708000" />
       <workItem from="1662304768268" duration="8131000" />
+      <workItem from="1662498079425" duration="1712000" />
+      <workItem from="1662499814091" duration="159000" />
+      <workItem from="1662499982824" duration="608000" />
     </task>
     <servers />
   </component>
@@ -161,5 +177,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
