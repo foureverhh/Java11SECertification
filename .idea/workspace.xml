@@ -5,11 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da066cb8-f5ad-49eb-9631-d7aa8db9f8aa" name="Changes" comment="">
+
       <change afterPath="$PROJECT_DIR$/FunctionalPrograming/src/exercises/stream_example/BasicStreamsExample01.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/FunctionalPrograming/src/exercises/stream_example/BasicStreamsExample02.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/FunctionalPrograming/src/exercises/stream_example/BasicStreamsExample03.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/FunctionalPrograming/src/exercises/stream_example/BasicStreamsExample04.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/FunctionalPrograming/src/exercises/stream_example/BasicStreamsExample05.java" afterDir="false" />
+
+      <change afterPath="$PROJECT_DIR$/DataTypesAndStringAPIs/src/EnumDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataTypesAndStringAPIs/src/PayEnum.java" afterDir="false" />
+
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FunctionalPrograming/src/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/FunctionalPrograming/src/model/Product.java" afterDir="false" />
     </list>
@@ -54,10 +59,12 @@
       <recent name="exercises" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BasicStreamsExample05">
-    <configuration name="BasicStreamsExample02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercises.stream_example.BasicStreamsExample02" />
-      <module name="FunctionalPrograming" />
+
+  <component name="RunManager" selected="Application.PayEnum">
+    <configuration name="NoClassDefFoundErrorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="error_example.NoClassDefFoundErrorExample" />
+      <module name="ExceptionHandling" />
+
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="exercises.stream_example.*" />
@@ -107,6 +114,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PayEnum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PayEnum" />
+      <module name="DataTypesAndStringAPIs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ThrowingExceptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="throw_example.ThrowingExceptions" />
       <module name="ExceptionHandling" />
@@ -120,13 +140,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BasicStreamsExample05" />
-        <item itemvalue="Application.BasicStreamsExample03" />
-        <item itemvalue="Application.BasicStreamsExample02" />
+        <item itemvalue="Application.PayEnum" />
         <item itemvalue="Application.OverridingExample" />
         <item itemvalue="Application.ThrowingExceptions" />
+        <item itemvalue="Application.NoClassDefFoundErrorExample" />
+        <item itemvalue="Application.TryWithResourcesReverseClose" />
       </list>
     </recent_temporary>
   </component>
@@ -147,7 +168,7 @@
       <workItem from="1660852790155" duration="7829000" />
       <workItem from="1661685296513" duration="22297000" />
       <workItem from="1661978515316" duration="708000" />
-      <workItem from="1662304768268" duration="4422000" />
+      <workItem from="1662304768268" duration="8131000" />
     </task>
     <servers />
   </component>
