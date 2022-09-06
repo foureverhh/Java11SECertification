@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da066cb8-f5ad-49eb-9631-d7aa8db9f8aa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ExceptionHandling/src/exception_overriding/OverridingExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExceptionHandling/src/exception_overriding/model/Developer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExceptionHandling/src/exception_overriding/model/TeamMember.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FunctionalPrograming/src/exercises/stream_example/BasicStreamsExample01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FunctionalPrograming/src/exercises/stream_example/BasicStreamsExample02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FunctionalPrograming/src/exercises/stream_example/BasicStreamsExample03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FunctionalPrograming/src/exercises/stream_example/BasicStreamsExample04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FunctionalPrograming/src/exercises/stream_example/BasicStreamsExample05.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FunctionalPrograming/src/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/FunctionalPrograming/src/model/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,37 +37,56 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="jdk.selected.JAVA_MODULE" value="11" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.08032131" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "node.js.selected.package.tslint": "(autodetect)"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/ExceptionHandling/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="exercises.stream_example" />
       <recent name="" />
       <recent name="exercises.functionalExamples" />
       <recent name="exercises" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OverridingExample">
-    <configuration name="NoClassDefFoundErrorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="error_example.NoClassDefFoundErrorExample" />
-      <module name="ExceptionHandling" />
+  <component name="RunManager" selected="Application.BasicStreamsExample05">
+    <configuration name="BasicStreamsExample02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercises.stream_example.BasicStreamsExample02" />
+      <module name="FunctionalPrograming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="error_example.*" />
+          <option name="PATTERN" value="exercises.stream_example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BasicStreamsExample03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercises.stream_example.BasicStreamsExample03" />
+      <module name="FunctionalPrograming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercises.stream_example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BasicStreamsExample05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercises.stream_example.BasicStreamsExample05" />
+      <module name="FunctionalPrograming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercises.stream_example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,27 +120,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TryWithResourcesExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TryWithResourcesExample" />
-      <module name="ExceptionHandling" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TryWithResourcesReverseClose" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TryWithResourcesReverseClose" />
-      <module name="ExceptionHandling" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BasicStreamsExample05" />
+        <item itemvalue="Application.BasicStreamsExample03" />
+        <item itemvalue="Application.BasicStreamsExample02" />
         <item itemvalue="Application.OverridingExample" />
         <item itemvalue="Application.ThrowingExceptions" />
-        <item itemvalue="Application.NoClassDefFoundErrorExample" />
-        <item itemvalue="Application.TryWithResourcesReverseClose" />
-        <item itemvalue="Application.TryWithResourcesExample" />
       </list>
     </recent_temporary>
   </component>
