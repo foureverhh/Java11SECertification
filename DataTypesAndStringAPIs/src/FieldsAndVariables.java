@@ -1,6 +1,17 @@
 import java.util.Random;
 
 public class FieldsAndVariables {
+
+    //Fields access is  class level and initialized by default
+    static int field_a = 1000;                //class variable
+    static String field_b = "static string";  //instance variable
+
+    public void method_1() {
+        //variables in method, even main method, are local variables, only access within method or code blocks
+        short variable_a;
+        String variable_b;
+    }
+
     public static void main(String[] args) {
         boolean flag = (new Random()).nextBoolean();
         long variable_x;
@@ -36,8 +47,9 @@ public class FieldsAndVariables {
         if(aLetter==aUnicode && aUnicode==aNumber) {
             System.out.println("aLetter -> " + aLetter + " , aUnicode -> " + aLetter + " , aNumber -> " + aNumber );
         }
-
-
     }
+
+
+
 }
 

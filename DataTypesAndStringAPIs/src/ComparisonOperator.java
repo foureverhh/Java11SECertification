@@ -1,14 +1,16 @@
+import modifier_test.p1.ModifierTestA;
+
 public class ComparisonOperator {
     public static void main(String[] args) {
-        ClassA instanceA = new ClassA();
+        ModifierTestA instanceA = new ModifierTestA();
         ClassB instanceB = new ClassB();
-        boolean result = instanceA instanceof ClassA;
+        boolean result = instanceA instanceof ModifierTestA;
         System.out.println(result);
-        result = instanceB instanceof ClassA;
+        result = instanceB instanceof ModifierTestA;
         System.out.println(result);
     }
 }
 
 class ClassA {}
 
-class ClassB extends ClassA{}
+class ClassB extends ModifierTestA {}
