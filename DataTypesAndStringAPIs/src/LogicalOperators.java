@@ -26,6 +26,14 @@ public class LogicalOperators {
         boolean yBool = false;
         showResult((xInt++ <=7) || (yBool=true)); // || xInt++ <=7 is true, yBool=true will not executed
         System.out.println("xInt: " + xInt + " , and yBool: " + yBool);
+
+        // ^ one side must be true and one side must be false
+        boolean tru_1 = true;
+        boolean tru_2 = true;
+        boolean flse_1 = false;
+        boolean flse_2 = false;
+        showResult(tru_1 ^ flse_1);
+
     }
 
     public static void showResult(boolean result){
