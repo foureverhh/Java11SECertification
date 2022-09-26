@@ -19,7 +19,8 @@ public class DateAndTimes {
         zonedDateTime = ZonedDateTime.of(2022,10,31,9,45, 00, 00, ZoneId.of("America/Chicago"));
         System.out.println("zonedDateTime:" + zonedDateTime);
 
-        String dateTimeString = localDateTime.getDayOfWeek() + " " + localDateTime.getMonth() + " " + localDateTime.getDayOfMonth()
+        String dateTimeString = localDateTime.getDayOfWeek() + " " + localDateTime.getMonth() + " " + localDateTime.getDayOfMonth();
+        System.out.println(dateTimeString);
     }
 
 }
