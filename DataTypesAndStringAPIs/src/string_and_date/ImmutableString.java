@@ -19,5 +19,24 @@ public class ImmutableString {
 
         str5 += "__" + 5 * 4;
         System.out.println("str5 = " + str5);
+
+        String str = "\t\b  \"Hi there!\"  \\\r\n\f";
+        System.out.println("str has length-" + str.length());
+        System.out.println(str);
+        String trimmedStr = str.trim();
+        System.out.println("trimmedStr has length " + trimmedStr.length());
+        System.out.println(trimmedStr);
+        String stripedStr = str.strip();
+        System.out.println("stripedStr has length " + stripedStr.length());
+        System.out.println(stripedStr);
+
+        str = "  Hi there!  ";
+        trimmedStr = str.trim();
+        System.out.println(trimmedStr + trimmedStr.length() + "," + str.length());
+        stripedStr = str.strip();
+        System.out.println(stripedStr + stripedStr.length() + "," + str.length());
+        String stripLeading = str.stripLeading();
+        String stripTrailing = str.stripTrailing();
+        System.out.println(stripLeading + stripLeading.length() + "," +stripTrailing +  stripTrailing.length());
     }
 }
