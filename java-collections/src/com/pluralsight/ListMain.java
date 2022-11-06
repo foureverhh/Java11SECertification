@@ -63,5 +63,20 @@ public class ListMain {
         normalList.remove(0);
         System.out.println(normalList);
 
+        System.out.println("-------------------------------");
+        System.out.println("---------  Linked List  --------");
+        System.out.println("------- Queue interface  --------");
+        LinkedList<String> orders = new LinkedList<>();
+        orders.add("order 1");
+        orders.add("order 2");
+        orders.add("order 3");
+        System.out.println(orders);
+        orders.addFirst("order 4");
+        orders.addLast("order 5");
+        System.out.println(orders);
+        orders.removeFirst();
+        orders.removeLast();
+        System.out.println(orders);
+
     }
 }
