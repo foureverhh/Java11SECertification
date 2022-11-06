@@ -1,9 +1,6 @@
 package com.pluralsight;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 public class ListMain {
     public static void main(String... args) {
@@ -16,8 +13,46 @@ public class ListMain {
         colors.add("yellow");
         colors.add("blue");
         System.out.println(colors);
+
         System.out.println("----------");
         colors.add(1,"orange");
         System.out.println(colors);
+        colors.forEach(System.out::println);
+
+        System.out.println("----------");
+        colors.remove("orange");
+        System.out.println(colors);
+        colors.remove(1);
+        System.out.println(colors);
+
+        System.out.println("-----------");
+        System.out.println("convert list to array");
+        String[] colorsArray = colors.toArray(new String[0]);
+        System.out.println(Arrays.toString(colorsArray));
+
+        System.out.println("-------------");
+        System.out.println("convert en array to list");
+
+        String[] shapes = new String[] {"square", "circle", "triangle"};
+        List<String> shapeAsList = Arrays.asList(shapes); //java.util.Arrays$ArrayList inner class in Arrays, can change element, but can not remove
+        System.out.println(shapeAsList);
+        System.out.println("--------------");
+        System.out.println(colors.getClass().getName());
+        System.out.println(shapeAsList.getClass().getName());
+        System.out.println("----java.util.Arrays$ArrayList inner class in Arrays, can modify existing element, but can not remove or add-----");
+        System.out.println(shapeAsList);
+        shapeAsList.set(0, "round");
+        System.out.println(shapeAsList);
+        // shapeAsList.add("extra shape"); // add create exception
+        // shapeAsList.remove(0);          // remove create exception
+        System.out.println("-----List.of(array)------");
+        List<String> shapeOfList = List.of(shapes); //Immutable list
+        // shapeOfList.set(0,"round");
+        // System.out.println(shapeOfList);
+        // shapeOfList.add("extra shape");
+        // System.out.println(shapeOfList);
+        // shapeOfList.remove(0);
+        // System.out.println(shapeOfList);
+
     }
 }
