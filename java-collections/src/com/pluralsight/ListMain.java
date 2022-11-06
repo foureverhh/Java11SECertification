@@ -53,6 +53,15 @@ public class ListMain {
         // System.out.println(shapeOfList);
         // shapeOfList.remove(0);
         // System.out.println(shapeOfList);
+        System.out.println("----collections.addAll(targetList, sourceArray)-----");
+        List<String> normalList = new ArrayList<>();
+        Collections.addAll(normalList, shapes);
+        normalList.set(0,"round");
+        System.out.println(normalList);
+        normalList.add("extra shape");
+        System.out.println(normalList);
+        normalList.remove(0);
+        System.out.println(normalList);
 
     }
 }
