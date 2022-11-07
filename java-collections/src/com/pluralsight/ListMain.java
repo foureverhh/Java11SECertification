@@ -78,5 +78,28 @@ public class ListMain {
         orders.removeLast();
         System.out.println(orders);
 
+        System.out.println("--------------------------------");
+        List numberList = new ArrayList();
+        numberList.add(10);
+        numberList.add(5);
+        numberList.add(1);
+        numberList.add(3);
+        numberList.add(9);
+        System.out.println(numberList);
+        Collections.sort(numberList);
+        System.out.println(numberList);
+
+        System.out.println("----------------Compare and Comparable------------------");
+        List<Mountain> mountains = new ArrayList<>();
+        mountains.add(new Mountain("Everest", 8848));
+        mountains.add(new Mountain("Matterhorn", 4478));
+        mountains.add(new Mountain("Natterhorn", 4478));
+        mountains.add(new Mountain("K2", 8611));
+        Collections.sort(mountains);
+        System.out.println(mountains);
+
+        Comparator<Mountain> mountainComparator = (o1, o2) -> o1.getName().compareTo(o2.getName());
+        Collections.sort(mountains, mountainComparator);
+        System.out.println(mountains);
     }
 }
