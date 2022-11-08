@@ -6,6 +6,7 @@ import com.pluralsight.enum_file.TakeOffDistancingRules;
 import com.pluralsight.enum_file.WakeTurbulence;
 
 import java.time.LocalDateTime;
+import java.util.Arrays;
 import java.util.List;
 
 import static java.time.LocalTime.now;
@@ -43,6 +44,11 @@ public class EnumMain {
             LocalDateTime time = LocalDateTime.now().plusSeconds(offset);
             System.out.println("Aircraft " + a.getModeADecimal() + " takes off at " + time.toLocalTime());
         }
+        System.out.println("-----name()----valueOf()----values()------");
+        System.out.println("name() => " + WakeTurbulence.LIGHT.name());
+        System.out.println("toString() => " + WakeTurbulence.LIGHT.toString());
+        System.out.println("valueOf() => " + WakeTurbulence.valueOf("LIGHT"));
+        System.out.println("values() => " + Arrays.toString(WakeTurbulence.values()));
     }
 
     static int extractMinSeparation(FlightRules fr) {
