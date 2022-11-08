@@ -5,16 +5,20 @@ public class JetEngine {
     String maxThrust;
     int maxFanSpeed;
     int fanSpeed;
+    String serialNumber;
+    public static int currentModelNumber;
 
     {
         this.model = "";
         System.out.println("Initializer called");
     }
-    JetEngine(int maxFanSpeed) {
-        this.maxFanSpeed = maxFanSpeed;
+
+    JetEngine() {
+        currentModelNumber++;
+        this.serialNumber = String.format("%08d", currentModelNumber);
     }
 
-    public static void main(String[] args) {
-        JetEngine jetEngine = new JetEngine(6000);
+    JetEngine(int maxFanSpeed) {
+        this.maxFanSpeed = maxFanSpeed;
     }
 }
