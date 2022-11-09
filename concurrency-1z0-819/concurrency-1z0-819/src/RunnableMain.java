@@ -1,4 +1,6 @@
-public class Main {
+import runnable_callable.RunThread;
+
+public class RunnableMain {
     public static void main(String[] args)  {
         /*
         Thread t = new Thread(()->{
