@@ -14,7 +14,7 @@ public class Count {
                     //Lock和TryLock的区别
                     //1:  lock拿不到锁会一直等待。tryLock是去尝试，拿不到就返回false，拿到返回true。
                     //
-                    //2:  tryLock是可以被打断的，被中断 的，lock是不可以。
+                    //2:  tryLock是可以被打断的，被中断的，lock是不可以。
                     // lock.lock()
                     int current = counter;
                     System.out.println("Before: " + counter + " current thread: " + Thread.currentThread().getName() +
