@@ -1,4 +1,4 @@
-package synchronize_lock;
+package synchronized_key_word;
 
 public class Count {
     public static int counter;
