@@ -1,0 +1,4 @@
+writing with Files.newBufferedWriter FileWriter fileWriter = new FileWriter("files/words.txt");
+        BufferedWriter bufferedWriter = new BufferedWriter(fileWriter)
+equals
+Files.newBufferedWriter(path)
