@@ -7,7 +7,12 @@ import java.lang.annotation.Target;
 
 public class TestOwnAnnotation2 {
     @MyAnnotation2(name = "Yuanheng Li", schools={"清华","上交"})
-    public void test() {
+    public void test2() {
+
+    }
+
+    @MyAnnotation3("hello")
+    public void test3() {
 
     }
 }
@@ -19,4 +24,11 @@ public class TestOwnAnnotation2 {
     int age() default 0;
     int id() default -1; // if -1, mean not exists
     String[] schools() default {"西工大","北大"};
+}
+
+
+@Target({ElementType.TYPE, ElementType.METHOD})
+@Retention(RetentionPolicy.RUNTIME)
+@interface MyAnnotation3{
+    String value();
 }
